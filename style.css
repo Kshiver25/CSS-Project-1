@@ -1,0 +1,53 @@
+body {
+        background-color: #F2F2F2; /* This is a shade of grey */
+      
+  }
+  
+  nav {
+    position: fixed; /* Make the navigation bar fixed at the top of the page */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5); /* Make the navigation bar semi-transparent */
+    z-index: 1; /* Make sure the navigation bar is on top of other elements */
+  }
+  nav ul {
+    list-style-type: none; /* Remove bullet points from the navigation menu */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav li {
+    float: left; /* Make the navigation links appear next to each other */
+  }
+  nav a {
+    display: block; /* Make the links take up the entire width of the list item */
+    color: white; /* Make the text color of the links white */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Remove underlines from the links */
+    font-size: 17px;
+  }
+  nav a:hover {
+    background-color: #111; /* Change the background color of the links when hovered over */
+  }
+  .container {
+    display: grid; /* Use a grid layout for the content */
+    grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid */
+    grid-template-rows: repeat(3, 1fr); /* Create a 3-row grid */
+    grid
+  }
+  section {
+    background-color: #F2F2F2; /* Grey background color */
+    padding: 20px; /* Add some padding around the section */
+    border-radius: 10px; /* Add rounded corners to the section */
+    box-shadow: 2px 2px 5px #888; /* Add a subtle shadow to the section */
+  }
+  
+  li {
+    font-size: 1.2em; /* Increase the font size of the list items */
+    line-height: 1.5; /* Increase the line height of the list items */
+    margin-bottom: 10px; /* Add some margin to the bottom of each list item */
+  }
+  
+  
